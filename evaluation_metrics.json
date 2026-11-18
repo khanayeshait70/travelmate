@@ -1,0 +1,21 @@
+{
+    "feedback_records": 27,
+    "different_places": 19,
+    "training_records": 21,
+    "testing_records": 6,
+    "Random_Forest": {
+        "MAE": 0.5614,
+        "RMSE": 0.6165,
+        "R2": -1.7369,
+        "Exact_Star_Accuracy_Percent": 16.67,
+        "Within_One_Star_Accuracy_Percent": 100.0
+    },
+    "Mean_Rating_Baseline": {
+        "MAE": 0.4841,
+        "RMSE": 0.4845,
+        "R2": -0.6898,
+        "Exact_Star_Accuracy_Percent": 83.33,
+        "Within_One_Star_Accuracy_Percent": 100.0
+    },
+    "Evaluation_Note": "Star accuracy measures rounded user-rating prediction. It is not the accuracy of the complete recommendation ranking."
+}
